@@ -186,7 +186,7 @@ function App()
           <h3>Email: <a href='mailto:nick97000@gmail.com' target='_blank' rel='noopener noreferrer'>nick97000@gmail.com</a></h3>
           {/* <h3>Phone: <a href='tel: +447533232346'>(+44)7533232346</a></h3> */}
           <h3>LinkedIn: <a href='https://www.linkedin.com/in/nick-worrall-1940981ab/' target='_blank' rel='noopener noreferrer'>Nick Worrall</a></h3>
-          <p>Testing...</p>
+          <p>Testing from Netlify</p>
           {/* <p>If you need words for your website &mdash; whether that be content, copywriting, blogs, advertising features, editing or proofreading &mdash; I work closly with writer <a href='https://karenworrall.co.uk'>Karen Worrall</a>, who I highly recommend and we can offer you a package deal.</p> */}
         </div>
       </div>
