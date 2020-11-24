@@ -1,0 +1,103 @@
+.portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    mask-image: radial-gradient(ellipse, black 65%, transparent 70%);
+
+}
+
+.portfolio-items{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .portfolio-items{
+        display: block;
+    }
+    
+}
+
+.no-outline{
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.slick-slide img{
+    // height: 200px;
+    width: 99%;
+    max-width: 350px;
+}
+
+.carousel-buttons{
+    display: grid;
+    grid-template-columns: 80px auto 80px;
+    margin-bottom: 10px;
+}
+
+.carousel-buttons >  button{
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 3em;
+    background-color: black;
+    padding: 10px 0;
+    width: 80px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    outline: none;
+    border-color: white;
+
+}
+
+.carousel-buttons > div{
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.carousel__dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: white;
+    outline: none;
+    margin: 5px;
+}
+
+.carousel__dot--selected{
+    background-color: black;
+}
+
+.slick-dots .slick-active button{
+    background: white;
+}
+
+.slick-dots li button{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px white solid;
+    color: white;
+    background: black;
+}
+
+.slick-arrow::before{
+    opacity: 1;
+}
+
+.slick-arrow:hover::before{
+    opacity: .75;
+}
+
+// .portfolio-text{
+//     padding-right: 30px;
+// }

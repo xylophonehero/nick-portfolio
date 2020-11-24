@@ -1,0 +1,49 @@
+$diamond-height: 20px;
+$diamond-color: #d0d0d0;
+$diamond-hover-color: #888888;
+
+.menu{
+    position: fixed;
+}
+
+.menuOption{
+    position: absolute;
+    display: flex;
+}
+
+.diamond {
+    width: 0;
+    height: 0;
+    border: $diamond-height solid transparent;
+    border-bottom-color: $diamond-color;
+    position: relative;
+    top: -1*$diamond-height;
+    animation: rotateAround linear infinite alternate;
+}
+.diamond:after {
+    content: '';
+    position: absolute;
+    left: -1* $diamond-height;
+    top: $diamond-height;
+    width: 0;
+    height: 0;
+    border: $diamond-height solid transparent;
+    border-top-color: $diamond-color;
+}
+
+.diamond:hover{
+    border-bottom-color: $diamond-hover-color;
+
+    &::after{
+        border-top-color: $diamond-hover-color;
+    }
+}
+
+.infoBox{
+    position: relative;
+    color: white;
+}
+h1{
+    
+    color: white;
+}

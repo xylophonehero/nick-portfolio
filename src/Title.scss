@@ -1,0 +1,32 @@
+.explode{
+    color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    // font-family: 'Gilroy', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    // transform: translateY(15vh);
+    width: 90%;
+    height: 60%;
+}
+
+.explode-row{
+    display: flex;
+    justify-content: center;
+}
+
+.explode-letter{
+    font-size: 150px;
+}
+
+.scroll{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    z-index: 2;
+}

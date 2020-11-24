@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: black;
+  // position: fixed;
+}
+
+.container{
+  text-align: center;
+}
+
+.StickyText{
+  position: fixed;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Gilroy', sans-serif ;
+  font-size: 3em;
+}
+
+.section{ 
+  margin: 20vh auto; 
+  width: 75%; 
+  // min-height: 100vh; 
+  position: relative; 
+  color: white; 
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: black;
+}
+
+::-webkit-scrollbar-thumb{
+  background: white;
+  border-radius: 10px;
+}
+
+a{
+  color: white; 
+  :visited{
+    color: white;
+  }
+}
+
+// .about{
+//   display: grid;
+//   grid-template-columns: 300px auto;
+// }
+
+.about{
+  display: flex;
+  align-items: flex-start;
+  // flex-wrap: wrap;
+}
+
+.about img{
+  min-width: 300px;
+}
+
+
+@media only screen and (max-width: 1100px){
+  .about{
+    flex-wrap: wrap;
+  }
+}
+
+.skills-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: solid white 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 800px){
+  .skills-box{
+    display: block;
+  }
+}
+
+ul{
+  list-style-type: circle;
+}
+
+.testimonial-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.testimonial{
+  text-align: center;
+  padding: 10px;
+  width: 400px;
+  margin: 10px;
+  border: white 2px solid;
+  border-radius: 10px;
+}
+
+
+.fake-button-wrapper{
+  width: 150px;
+  height: auto;
+    left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.fake-button{
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+
+  text-align: center;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out
+}
+
+
+
+.fake-button-wrapper a{
+  text-decoration: none;
+}
+
+.fake-button:hover{
+  background-color: white;
+  color: black;
+
+}
+
+a:hover{
+  color: #dddddd;
+  
+}
+
+.transparent-background{
+  background-color: rgba($color: black, $alpha: 0.8);
+}
