@@ -91,6 +91,15 @@ function Controls(props)
 
                         </h3>
                     </label>
+                    <label >
+                        <h3>Disable Stars:
+                        <div className='checkbox-container'>
+                                <input className='control-checkbox' type='checkbox' checked={props.disabled} onChange={(e) => props.handleChange(e, 'Disable')} />
+                                <span className='custom-checkbox'></span>
+                            </div>
+
+                        </h3>
+                    </label>
 
                     {/* <label>
                     <h3>Spread: {Math.round(props.spread * 100000) / 100000}</h3>

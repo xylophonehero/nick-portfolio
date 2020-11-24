@@ -1,28 +1,29 @@
 // import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, DotGroup } from 'pure-react-carousel';
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React from 'react';
+// import axios from 'axios';
 import './Portfolio.scss';
 import Slider from 'react-slick';
+import PortfolioData from './Portfolio.json';
 
 function Portfolio(props)
 {
 
-    const [portfolioData, setPortfolioData] = useState([]);
+    // const [portfolioData, setPortfolioData] = useState([]);
 
-    useEffect(() =>
-    {
-        async function loadPortfolioData()
-        {
-            const portfolioRes = await axios({
-                method: 'GET',
-                url: 'https://nickworrall.herokuapp.com/portfolios',
-            })
+    // useEffect(() =>
+    // {
+    // async function loadPortfolioData()
+    // {
+    //     const portfolioRes = await axios({
+    //         method: 'GET',
+    //         url: 'https://nickworrall.herokuapp.com/portfolios',
+    //     })
 
-            setPortfolioData(portfolioRes.data);
-        }
+    //     setPortfolioData(portfolioRes.data);
+    // }
 
-        loadPortfolioData();
-    }, []);
+    // loadPortfolioData();
+    // }, []);
 
 
     var sliderSettings = {
@@ -104,7 +105,7 @@ function Portfolio(props)
 
             </CarouselProvider> */}
             <Slider {...sliderSettings}>
-                {portfolioData.sort((a, b) => a.id - b.id).map((item) =>
+                {PortfolioData.sort((a, b) => a.id - b.id).map((item) =>
 
                     <div className='no-outline transparent-background' key={item.id}>
                         <img src={require('./img/' + item.image)} alt={item.title} />

@@ -107,6 +107,7 @@ function GoldenRatio()
     const [sameSizeStars, setSameSizeStars] = useState(false);
     const [flickerRate, setFlickerRate] = useState(5);
     const [colorful, setColorful] = useState(100);
+    const [disabled, setDisabled] = useState(false);
     // const [automaticSpread, setAutomaticSpread] = useState(false);
     const animateSeedRotation = {
         animationDuration: `${seedRotation === '0' ? 0 : 400 / seedRotation}s`
@@ -133,6 +134,9 @@ function GoldenRatio()
                 break;
             case 'Colorful':
                 setColorful(event.target.value)
+                break;
+            case 'Disable':
+                setDisabled(event.target.checked)
                 break;
             case 'ResetSpread':
                 GetRandomNumbers()
@@ -167,19 +171,23 @@ function GoldenRatio()
     return (
 
         <>
-            <Controls handleChange={handleChange} increaseSpread={null} seedRotation={seedRotation} spread={spread} starSize={starSize} sameSizeStars={sameSizeStars} flickerRate={flickerRate} colorful={colorful} />
-            < div className='seeds' style={animateSeedRotation}>
-                {
-                    // myArray.map((index) =>
+            <Controls handleChange={handleChange} increaseSpread={null} seedRotation={seedRotation} spread={spread} starSize={starSize} sameSizeStars={sameSizeStars} flickerRate={flickerRate} colorful={colorful} disabled={disabled} />
+            {!disabled &&
+                < div className='seeds' style={animateSeedRotation}>
+                    {
+                        // myArray.map((index) =>
 
-                    //     <Seed key={index} id={index} spread={spread} starSize={starSize} sameSizeStars={sameSizeStars} flickerRate={flickerRate} colorful={colorful} />
-                    // )
-                    RandomArray.map((star) =>
-                        <Seed key={star.id} id={star.id} random={star} spread={spread} starSize={starSize} sameSizeStars={sameSizeStars} flickerRate={flickerRate} colorful={colorful} />
-                    )
-                }
+                        //     <Seed key={index} id={index} spread={spread} starSize={starSize} sameSizeStars={sameSizeStars} flickerRate={flickerRate} colorful={colorful} />
+                        // )
+                        RandomArray.map((star) =>
+                            <Seed key={star.id} id={star.id} random={star} spread={spread} starSize={starSize} sameSizeStars={sameSizeStars} flickerRate={flickerRate} colorful={colorful} />
+                        )
+                    }
 
-            </div >
+                </div >
+            }
+
+
 
 
             {/* <div className='controls' style={active ? showControls : {}}>

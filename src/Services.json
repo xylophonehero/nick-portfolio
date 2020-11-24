@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "title": "Website Design",
+        "info": "I'll start shaping your website from a pen and paper draft and mould it so your ideas come to life. Once you are happy with the initial design, I will start building the website, taking great care for it to match your needs."
+    },
+    {
+        "id": 1,
+        "title": "WordPress Theme Development",
+        "info": "WordPress is my go-to content management system I will use to build your website. 30% of the web is powered by it because it's easy to use and very functional. After finishing your website, I will provide you with login details and together we will go through editing the fine detail of the site."
+    },
+    {
+        "id": 2,
+        "title": "E-Commerce Solution",
+        "info": "I'll create your online store for you to sell your goods or services on your selected platform, such as Subbly, Shopify, WooCommerce etc. Credit card payments will be taken safely from your customers and you can easily add any discounts or coupon campaigns to create a buzz as well."
+    },
+    {
+        "id": 3,
+        "title": "Social Media Integration",
+        "info": "A successful website connects seamlessly to your Facebook, Instagram, LinkedIn, Twitter etc. I create your website so it does this by automatically posting your blog to Facebook and Twitter, adding social feeds to your website and setting you up with a monthly newsletter."
+    },
+    {
+        "id": 4,
+        "title": "Responsive Site Design",
+        "info": "All websites can be viewed on laptops, phones, tablets and more. If a user has a bad experience on one of these, then they probably won't stay on your site for very long. I will make sure this never happens as websites I design will look great on all devices."
+    },
+    {
+        "id": 5,
+        "title": "Cross-browser Testing",
+        "info": "As well as different screen sizes, websites can be viewed on many different browsers. The most popular are Firefox, Chrome, Safari, Edge and native mobile browsers. I will make sure that your website is correctly implemented on all of these different browsers."
+    },
+    {
+        "id": 6,
+        "title": "WordPress Training",
+        "info": "After your website is complete, I will teach you the basics of WordPress so that you can add and update new content, whether it be photos, blogs or new items in your store. WordPress is beginner-friendly and I am a patient teacher."
+    },
+    {
+        "id": 7,
+        "title": "Copywriting/Content Writing/SEO Writing",
+        "info": "If you need words for your website &mdash; whether that be content, copywriting, blogs, advertising features, editing or proofreading &mdash; I work closely with writer <a href='https://karenworrall.co.uk' target='_blank' rel='noopener noreferrer'>Karen Worrall</a>, who I highly recommend and we can offer you a package deal."
+    }
+]

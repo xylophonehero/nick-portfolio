@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
+// import axios from 'axios';
 import './Services.scss'
+import ServicesData from './Services.json';
 
 function Service(props)
 {
@@ -29,22 +30,21 @@ function Service(props)
 function Services()
 {
 
-    const [servicesData, setServiceData] = useState([]);
+    // const [servicesData, setServiceData] = useState([]);
 
-    useEffect(() =>
-    {
-        async function loadServiceData()
-        {
-            const serviceRes = await axios({
-                method: 'GET',
-                url: 'https://nickworrall.herokuapp.com/services',
-            })
+    // useEffect(() =>
+    // {
+    // async function loadServiceData()
+    // {
+    //     const serviceRes = await axios({
+    //         method: 'GET',
+    //         url: 'https://nickworrall.herokuapp.com/services',
+    //     })
 
-            setServiceData(serviceRes.data);
-        }
-
-        loadServiceData();
-    }, []);
+    //     setServiceData(serviceRes.data);
+    // }
+    // loadServiceData();
+    // }, []);
     const [activeService, setActiveService] = useState(-1);
 
     const handleServiceClick = (serviceID) =>
@@ -56,7 +56,7 @@ function Services()
         <div className='section'>
             <h1>Services</h1>
             <div className='service-wrapper'>
-                {servicesData.map((item) =>
+                {ServicesData.map((item) =>
                     <Service key={item.id} id={item.id} item={item} showDetails={activeService === item.id} handleClick={handleServiceClick} />
                 )}
             </div>
