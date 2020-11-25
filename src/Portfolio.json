@@ -21,7 +21,7 @@
         "image": "karenworrall.jpg",
         "link": "https://karenworrall.co.uk",
         "tagline": "React writer portfolio website",
-        "description": "This is the portfolio website of a writer featuring their services, selected works and testimonials. *nI built the website from the ground up, writing all the JavaScript and CSS and implemented third party React libraries. *nThe website takes JSON data for the portfolio, services and testimonials sections and converts it into HTML so more items can easily be added by amending the JSON file."
+        "description": "This is the portfolio website of a writer featuring their services, selected works and testimonials. *nI built the website from the ground up, writing all the JavaScript and CSS and implemented third party React libraries. *nThe website uses Netlify CMS as a backend to load information for the portfolio, testimonials and services section so the client can easily add or update the content."
     },
     {
         "id": 3,
