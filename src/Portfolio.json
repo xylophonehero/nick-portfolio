@@ -4,7 +4,7 @@
         "title": "Cruise Ship Karen",
         "image": "Cruiseshipkaren.jpg",
         "link": "https://cruiseshipkaren.com",
-        "tagline": "WordPress travel website.",
+        "tagline": "WordPress travel website",
         "description": "This website has information on calls of port for cruise ship itineraries, blogs and advice articles. *nI created a template for the port guide section so that information could be easily added by the writer whenever they write a new guide. *nI also created and edited footage for the YouTube Channel Cruise Ship Karen."
     },
     {
@@ -12,31 +12,31 @@
         "title": "Night Health Worker Box",
         "image": "nighthealthworker.jpg",
         "link": "https://nighthealthworkerbox.com",
-        "tagline": "WordPress ecommerce website.",
-        "description": "On this website, you can buy a subscription based service for a monthly care package designed for night health workers. The website uses the Genesis framework and implements the Subbly platform to handle the ecommerce side of it. *nI have also taught the client to use WordPress so they can update the website themselves with new pictures every month."
+        "tagline": "WordPress ecommerce website",
+        "description": "On this website, you can buy a subscription for a monthly care package designed for night health workers. The website uses the Genesis framework and implements the Subbly platform to handle the e-commerce side of it. *nI have also taught the client to use WordPress so they can update the website themselves with new pictures every month."
     },
     {
         "id": 2,
         "title": "KarenWorrall.co.uk",
         "image": "karenworrall.jpg",
         "link": "https://karenworrall.co.uk",
-        "tagline": "React writer portfolio website.",
-        "description": "This is the portfolio website of a writer featuring their services, selected works and testimonials. *nI built the website from the ground up, writing all the JavaScript and CSS myself and implemented third party React libraries. *nThe website takes JSON data for the portfolio, services and testimonials sections and converts it into HTML so more items can easily be added by amending the JSON file."
+        "tagline": "React writer portfolio website",
+        "description": "This is the portfolio website of a writer featuring their services, selected works and testimonials. *nI built the website from the ground up, writing all the JavaScript and CSS and implemented third party React libraries. *nThe website takes JSON data for the portfolio, services and testimonials sections and converts it into HTML so more items can easily be added by amending the JSON file."
     },
     {
         "id": 3,
         "title": "Codex Card Game Demo",
         "image": "Codex.jpg",
         "link": "https://dropbox.com/sh/jjk9lsrb776yta4/AADvHKSwV6A24NnBMdmm6kUVa?dl=0",
-        "tagline": "Unity card game.",
-        "description": "This is a personal project where I created a working version of the card game Codex on Unity. *nI have taken the card images and manipulated them into interactible game objects and have created scripts to implement the rules of the game. *nThe link above takes you to DropBox where you can download and test the game for yourself."
+        "tagline": "Unity card game",
+        "description": "This is a personal project where I created a working version of the card game Codex on Unity. *nI have taken the card images and manipulated them into interactive game objects and have created scripts to implement the rules of the game. *nThe link above takes you to DropBox where you can download and test the game for yourself."
     },
     {
         "id": 4,
         "title": "This Website",
         "image": "NickWorrall.jpg",
         "link": "",
-        "tagline": "React web developer portfolio website.",
-        "description": "This is my own portfolio website which i'm particualarly proud of the star background. *nThe positions of the stars are based on the Golden Ratio similarly to the way a Sunflower spreads it's seeds. *nClick the triangle on the left and experiment with the controls to see the power of React stateful widgets."
+        "tagline": "React web developer portfolio website",
+        "description": "This is my portfolio website, and I'm particualarly proud of the star background. *nThe positions of the stars are based on the Golden Ratio similarly to the way a Sunflower spreads its seeds. *nClick the triangle on the left and experiment with the controls to see the power of React stateful widgets."
     }
 ]

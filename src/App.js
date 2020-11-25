@@ -80,12 +80,12 @@ function App()
             <p>For the past six years, I have been working and travelling on cruise ships as a Musical Director and Pianist, then Sales Manager.</p>
             <p>My passions include coding, solving puzzles, music performance, travel, and playing games.</p> */}
             <p>Hello, and thank you for checking out my site.</p>
-            <p> I'm Nick Worrall and I'm a web developer. I'll make your website and teach you how to use the software I use to build it so that you can easily upload new content yourself.</p>
-            <p> I create beautiful and functional websites using HTML, CSS, PHP, JavaScript, WordPress, React and many other tools. </p>
+            <p>I'm Nick Worrall and I'm a web developer. I'll make your website and teach you how to use the software I used to build it so that you can easily upload new content yourself.</p>
+            <p>I create beautiful and functional websites using HTML, CSS, PHP, JavaScript, WordPress, React and many other tools. </p>
             <p>After graduating in 2014 from Warwick University with an Integrated Master's Degree (First Class Honours) in Mathematics, I have been working and travelling on cruise ships as a Musical Director and Pianist, then Sales Manager.</p>
-            <p> During that time I have learned how to code so I can make websites, games and applications. I am a great problem solver, learn new concepts quickly and work swiftly and efficiently.</p>
+            <p>During that time I have learned how to code so I can make websites, games and applications. I am a great problem solver, logical strategist, learn new concepts quickly and work swiftly and efficiently.</p>
             <p>When I am not working, I like to perform music, solve puzzles, travel the world, and play games.</p>
-            <p>Please take a look at my portfolio and skills and then lets talk about how I can help make your vision of your website a reality.</p>
+            <p>Please take a look at my portfolio and skills and then let's talk about how I can help make your vision of your website a reality.</p>
             <p>Best wishes, Nick</p>
 
           </div>
@@ -125,8 +125,8 @@ function App()
                 <li>WordPress</li>
                 <li>Flutter</li>
                 <li>Unity</li>
-                <li>Heroku</li>
-                <li>Strapi CMS</li>
+                <li>jQuery</li>
+                <li>Netlify CMS</li>
               </ul>
             </div>
             <div>
@@ -137,8 +137,8 @@ function App()
                 <li>Premiere Pro</li>
                 <li>Ableton Live</li>
                 <li>Sibelius</li>
+                <li>Indesign</li>
                 <li>Pianist</li>
-                <li>Team Player</li>
               </ul>
             </div>
           </div>
