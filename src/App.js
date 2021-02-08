@@ -80,8 +80,10 @@ function App()
             <p>For the past six years, I have been working and travelling on cruise ships as a Musical Director and Pianist, then Sales Manager.</p>
             <p>My passions include coding, solving puzzles, music performance, travel, and playing games.</p> */}
             <p>Hello, and thank you for checking out my site.</p>
-            <p>I'm Nick Worrall and I'm a web developer. I'll make your website and teach you how to use the software I used to build it so that you can easily upload new content yourself.</p>
-            <p>I create beautiful and functional websites using HTML, CSS, PHP, JavaScript, WordPress, React and many other tools. </p>
+            <p>I'm Nick, a Freelance Full Stack Web Developer.</p>
+            <p>I create beautiful and functional websites using React, JavaScript, Node.js, Gatsby,js, Next.js, WordPress and many other tools.</p>
+            <p>I integrate my sites with a content management system, usually Netlify CMS, Strapi or Headless WordPress, so clients can easily edit the data on existing pages or create new pages/blog posts from a template I have created.</p>
+            <p>Clients are impressed with my knowledge and speed of delivery when it comes to developing websites for them.</p>
             <p>After graduating in 2014 from Warwick University with an Integrated Master's Degree (First Class Honours) in Mathematics, I have been working and travelling on cruise ships as a Musical Director and Pianist, then Sales Manager.</p>
             <p>During that time I have learned how to code so I can make websites, games and applications. I am a great problem solver, logical strategist, learn new concepts quickly and work swiftly and efficiently.</p>
             <p>When I am not working, I like to perform music, solve puzzles, travel the world, and play games.</p>
@@ -109,9 +111,9 @@ function App()
               <h3>Languages</h3>
               <hr />
               <ul>
+                <li>JavaScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
                 <li>Python</li>
                 <li>PHP</li>
                 <li>C#</li>
@@ -122,11 +124,11 @@ function App()
               <hr />
               <ul>
                 <li>React</li>
+                <li>Gastby.js</li>
+                <li>Next.js</li>
+                <li>Node.js</li>
+                <li>StrapiCMS</li>
                 <li>WordPress</li>
-                <li>Flutter</li>
-                <li>Unity</li>
-                <li>jQuery</li>
-                <li>Netlify CMS</li>
               </ul>
             </div>
             <div>
@@ -144,49 +146,20 @@ function App()
           </div>
         </div>
       </div>
-      {/* <div className='section'>
-        <h1>Services</h1>
-        <div className='skill-wrapper'>
-          <div>
-            <h3>Ecommerce</h3>
-          </div>
-          <div>
-            <h3>Blogs</h3>
-          </div>
-          <div>
-            <h3>Something else</h3>
-          </div>
 
-
-        </div>
-      </div> */}
       <Services />
       <Portfolio />
       <Testimonials />
-      {/* <div className='section'>
-        <h1>Testimonials</h1>
-        <div className='testimonial-wrapper'>
-          {Testimonials.map(item =>
 
-            <div key={item.id} className='testimonial transparent-background'>
-              <h2>{item.name}</h2>
-              <h3>{item.title}</h3>
-              <hr />
-              <p>"{item.testimonial}"</p>
-            </div>
-
-          )}
-        </div>
-      </div> */}
       <div className='section' id='contact' style={{ minHeight: 'auto', textAlign: 'center' }}>
         <h1>Contact</h1>
         <div>
           <h2>Interested in working with me?</h2>
           <h2>Contact me now and we will work together to create your dream website.</h2>
-          <h3>Email: <a href='mailto:nick97000@gmail.com' target='_blank' rel='noopener noreferrer'>nick97000@gmail.com</a></h3>
+          <h3>Email: <a href='mailto:nick@nickworrall.co.uk' target='_blank' rel='noopener noreferrer'>nick@nickworrall.co.uk</a></h3>
           {/* <h3>Phone: <a href='tel: +447533232346'>(+44)7533232346</a></h3> */}
           <h3>LinkedIn: <a href='https://www.linkedin.com/in/nick-worrall-1940981ab/' target='_blank' rel='noopener noreferrer'>Nick Worrall</a></h3>
-          {/* <p>If you need words for your website &mdash; whether that be content, copywriting, blogs, advertising features, editing or proofreading &mdash; I work closly with writer <a href='https://karenworrall.co.uk'>Karen Worrall</a>, who I highly recommend and we can offer you a package deal.</p> */}
+          <h3>GitHub: <a href='https://github.com/xylophonehero' target='_blank' rel='noopener noreferrer'>XylophoneHero</a></h3>
         </div>
       </div>
       <div style={{ height: '1vh', position: 'relative', color: 'white', zIndex: '-1' }} />
